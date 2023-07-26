@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.queryImage{
+  width: 260px;
+  height: 160px;
+}
+
+.contenedor{
+  height: 400px;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+
+  @media ( max-width: 1024px ){
+    .queryImage{
+      width: 180px;
+      height: 112px;
+    }
+  };
