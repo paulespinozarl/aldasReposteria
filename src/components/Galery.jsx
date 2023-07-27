@@ -10,7 +10,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import { bb_1, bb_2, bb_3, cup_1, cup_2, cup_3, cup_4, cup_5 } from '../../public'
-import { SwapComp } from './swapComp';
+import { SwapComp } from './SwapComp';
+
 
 export const Galery = () => {
   return (
