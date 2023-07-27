@@ -9,7 +9,7 @@ export const SwapComp = ( props ) => {
             <img className="w-40 h-52 lg:w-56 lg:h-72 rounded-lg shadow-sm shadow-gray-700" src={ image } alt="Slide 1" />
         </div>
         <div className='m-8 flex justify-center items-center'> 
-             <p className=' text-3xl'>{ texto }</p>
+             <p className='text-lg lg:text-3xl'>{ texto }</p>
         </div>
     </div>
   )
