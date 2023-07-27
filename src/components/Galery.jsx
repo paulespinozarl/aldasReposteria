@@ -29,14 +29,14 @@ export const Galery = () => {
           scrollbar={{ draggable: true }}
           className='h-64 lg:h-96'
         >
-        <SwiperSlide> <SwapComp image={ bb_1 } texto="HOLA"/> </SwiperSlide>
-        <SwiperSlide> <SwapComp image={ bb_2 } texto="HOLA"/> </SwiperSlide>
-        <SwiperSlide> <SwapComp image={ bb_3 } texto="HOLA"/> </SwiperSlide>
-        <SwiperSlide> <SwapComp image={ cup_1 } texto="HOLA"/> </SwiperSlide>
-        <SwiperSlide> <SwapComp image={ cup_2 } texto="HOLA"/> </SwiperSlide>
-        <SwiperSlide> <SwapComp image={ cup_3 } texto="HOLA"/> </SwiperSlide>
-        <SwiperSlide> <SwapComp image={ cup_4 } texto="HOLA"/> </SwiperSlide>
-        <SwiperSlide> <SwapComp image={ cup_5 } texto="HOLA"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ bb_1 } texto="Agregar descripción"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ bb_2 } texto="Agregar descripción"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ bb_3 } texto="Agregar descripción"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ cup_1 } texto="Agregar descripción"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ cup_2 } texto="Agregar descripción"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ cup_3 } texto="Agregar descripción"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ cup_4 } texto="Agregar descripción"/> </SwiperSlide>
+        <SwiperSlide> <SwapComp image={ cup_5 } texto="Agregar descripción"/> </SwiperSlide>
         <div className='swiper-button-next text-pink-300'></div>
         <div className='swiper-button-prev text-pink-300'></div>
       </Swiper>

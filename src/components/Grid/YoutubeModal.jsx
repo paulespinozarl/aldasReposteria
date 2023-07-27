@@ -19,13 +19,11 @@ export const YoutubeModal = ({ isOpen, onClose }) => {
     >
       <div className="bg-white rounded-lg shadow-lg">
         <iframe 
-          width="500" 
-          height="300" 
           src="https://www.youtube.com/embed/W5eA6p94KGw" 
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowFullScreen
-          className="rounded-md"
+          className="rounded-md sm:w-96 sm:h-72"
         />
       </div>
     </div>
