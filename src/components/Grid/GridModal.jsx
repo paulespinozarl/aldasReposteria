@@ -33,7 +33,7 @@ export const GridModal = () => {
         className="px-4 py-2 my-4 bg-pink-50 border border-pink-300 text-pink-300 rounded-md"
         onClick={handleOpenModal}
       >
-        Abrir Modal
+        YouTube
       </button>
       <YoutubeModal isOpen={modalOpen} onClose={handleCloseModal} />
     </div>
