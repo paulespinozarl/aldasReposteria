@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
       <header className=" lg:h-36 h-28 w-full flex justify-around">
-        <nav className={`hidden lg:flex  order ${showMenu ? 'hidden' : 'flex'} ${isLargeScreen ? 'w-1/3' : ''} bg-gradient-to-r from-pink-200 to-white flex items-center justify-center`}>
+        <nav className={`hidden lg:flex order ${showMenu ? 'hidden' : 'flex'} ${isLargeScreen ? 'w-1/3' : ''} bg-gradient-to-r from-pink-200 to-white flex items-center justify-center`}>
             <a src="#" className="m-2 hover:underline hover:cursor-pointer">Inicio</a>
             <a src="#" className="m-2 hover:underline hover:cursor-pointer">Productos</a>
             <a src="#" className="m-2 hover:underline hover:cursor-pointer">Sobre Mi</a>
@@ -25,7 +25,7 @@ export const Navbar = () => {
         <div className={`flex justify-center bg-gradient-to-r from-pink-200 to-white ${isLargeScreen ? '' : 'w-1/3'}`}>
           <button
                 onClick={() => setShowMenu(!showMenu)}
-                className="focus:outline-none lg:hidden"
+                className="focus:outline-none order lg:hidden"
               >
                 {showMenu ? <GrClose size={25}/> : <AiOutlineMenu size={25}/>}
               </button>

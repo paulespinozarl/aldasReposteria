@@ -6,10 +6,10 @@ export const Footer = () => {
   return (
     <>
         <footer className="h-48 bg-gray-400 flex items-center justify-around">
-            <button><CiFacebook className="text-pink-200" size={30}/></button>
-            <button><CiTwitter className="text-pink-200" size={30}/></button>
-            <button><FaInstagram className="text-pink-200" size={30}/></button>
-            <button><PiYoutubeLogoLight className="text-pink-200" size={30}/></button>
+            <a href="#"><CiFacebook className="text-pink-200" size={30}/></a>
+            <a href="#"><CiTwitter className="text-pink-200" size={35}/></a>
+            <a href="https://www.instagram.com/aldasreposteria/" target="_blank"><FaInstagram className="text-pink-200" size={30}/></a>
+            <a href="#"><PiYoutubeLogoLight className="text-pink-200" size={35}/></a>
         </footer>
     </> 
     )

@@ -15,7 +15,7 @@ export default {
         custom: ['Montserrat', 'sans-serif']
       },
       backgroundImage: {
-        'pruebaBg': "url('../../public/torta-14.jpg')"
+        'pruebaBg': "url('/public/torta-14.jpg')"
       }
     },
   },
