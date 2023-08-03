@@ -18,7 +18,7 @@ export const GridItems = ({image, title, description}) => {
   return (
     <div className="flex mt-5 flex-col w-42 h-auto lg:w-60  justify-center items-center bg-gray-200 rounded-md">
         <div onClick={handleOpenModal} >
-            <img className="w-40 h-52 lg:w-56 lg:h-72 rounded-md mt-2" src={ image } alt="image" />
+            <img className="w-36 md:w-40 h-auto lg:w-56 rounded-md mt-2" src={ image } alt="image" />
         </div>
         <div className="m-2 mb-0">
             { title }
