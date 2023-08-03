@@ -1,6 +1,7 @@
 import { FiUser } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
-import { LiaShoppingBagSolid } from "react-icons/lia";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { AiOutlineMenu } from "react-icons/ai";
 import { logoAlda } from "../../public"
 import { useState } from "react";
@@ -10,6 +11,8 @@ import { useMediaQuery } from '@react-hook/media-query';
 export const Navbar = () => {
 
   const isLargeScreen = useMediaQuery('(min-width: 1024px)');
+
+  const isShortScreen = useMediaQuery('(min-width: 700px)');
 
   const [showMenu, setShowMenu] = useState(false);
 
@@ -56,8 +59,11 @@ export const Navbar = () => {
             <img src={ logoAlda } className="queryImage" alt="logo" />
         </div>
         <div className="order-3 w-1/3 flex items-center justify-center bg-gradient-to-r from-white to-pink-200">
-            <button><FiUser className="mr-3" size={30}/></button>
-            <button><LiaShoppingBagSolid size={30}/></button>
+            <a><FiUser className="mr-3 transition-transform duration-200 hover:scale-125" size={isShortScreen ? 30 : 23}/></a>
+            <a><MdOutlineMailOutline className="mr-3 transition-transform duration-200 hover:scale-125" size={isShortScreen ? 30 : 23}/></a>
+            <a href="https://wa.me/+56962936002" target="_blank" rel="noopener noreferrer" className="transition-transform duration-200 hover:scale-125">
+                    <AiOutlineWhatsApp size={isShortScreen ? 30 : 23}/>
+            </a>
         </div>
       </header>
   )
