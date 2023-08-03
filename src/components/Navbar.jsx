@@ -28,7 +28,7 @@ export const Navbar = () => {
         <div className={`flex justify-center bg-gradient-to-r from-pink-200 to-white ${isLargeScreen ? '' : 'w-1/3'}`}>
           <button
                 onClick={() => setShowMenu(!showMenu)}
-                className="focus:outline-none order lg:hidden"
+                className="focus:outline-none order lg:hidden transition-transform duration-200 hover:scale-125"
               >
                 {showMenu ? <GrClose size={25}/> : <AiOutlineMenu size={25}/>}
               </button>
