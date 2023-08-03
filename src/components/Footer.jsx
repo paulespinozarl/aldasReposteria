@@ -5,7 +5,7 @@ import { PiYoutubeLogoLight } from "react-icons/pi";
 export const Footer = () => {
   return (
     <>
-        <footer className="h-48 bg-gray-400 flex items-center justify-around">
+        <footer className="h-36 lg:h-48 bg-gray-400 flex items-center justify-around">
             <a href="#"><CiFacebook className="text-pink-200" size={30}/></a>
             <a href="#"><CiTwitter className="text-pink-200" size={35}/></a>
             <a href="https://www.instagram.com/aldasreposteria/" target="_blank"><FaInstagram className="text-pink-200" size={30}/></a>

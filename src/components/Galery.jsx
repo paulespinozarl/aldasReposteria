@@ -24,7 +24,8 @@ export const Galery = () => {
             prevEl: '.swiper-button-prev',
           }}
           spaceBetween={50}
-          autoplay={{ delay: 4000 }}
+          // autoplay={false}
+          autoplay={{ delay: 3000 }}
           slidesPerView={1}
           scrollbar={{ draggable: true }}
           className='h-64 lg:h-96'

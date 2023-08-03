@@ -20,17 +20,15 @@ body.modal-open {
   background-size: cover;
   background-position: center;
   width: 100%;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .image1{
   background-image: url('../public/cup-4.jpg');
-  border-radius:  15px 0 0 15px;
 }
 
 .image2{
   background-image: url('../public/cup-3.jpg');
-  border-radius: 0 15px 15px 0;
 }
 
 .menu {
