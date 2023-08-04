@@ -15,16 +15,12 @@ body.modal-open {
   overflow: hidden;
 }
 
-.equis {
-  background: linear-gradient(rgb(222, 228, 243, 0.5), rgba(222, 228, 243, 0.5)), url('../public/torta-6.jpg') no-repeat center fixed;
+.bg-image-container {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   width: 100%;
-  background-size: cover;;
-}
-
-
-
-.image2{
-  background-image: url('../public/torta-6.jpg');
+  background-size: cover;
 }
 
 .menu {

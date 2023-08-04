@@ -15,7 +15,7 @@ export const YoutubeModal = ({ isOpen, onClose }) => {
       onClick={onClose}
       className={`${
         isOpen ? 'fixed' : 'hidden'
-      } top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center`}
+      } top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50`}
     >
       <div className="bg-white rounded-lg shadow-lg">
         <iframe 
@@ -23,7 +23,7 @@ export const YoutubeModal = ({ isOpen, onClose }) => {
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowFullScreen
-          className="rounded-md sm:w-96 sm:h-72"
+          className="rounded-md w-80 h-64 md:w-132 md:h-128"
         />
       </div>
     </div>
