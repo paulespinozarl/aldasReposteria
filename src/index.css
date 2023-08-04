@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .queryImage{
-  width: 260px;
-  height: 160px;
+  width: 250px;
+  height: 144px;
 }
 
 .contenedor{
@@ -16,19 +16,15 @@ body.modal-open {
 }
 
 .equis {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(rgb(222, 228, 243, 0.5), rgba(222, 228, 243, 0.5)), url('../public/torta-6.jpg') no-repeat center fixed;
   width: 100%;
-  opacity: 1;
+  background-size: cover;;
 }
 
-.image1{
-  background-image: url('../public/cup-4.jpg');
-}
+
 
 .image2{
-  background-image: url('../public/cup-3.jpg');
+  background-image: url('../public/torta-6.jpg');
 }
 
 .menu {

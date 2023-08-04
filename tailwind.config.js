@@ -16,6 +16,9 @@ export default {
       },
       backgroundImage: {
         'pruebaBg': "url('/public/torta-14.jpg')"
+      },
+      spacing: {
+        '128': '32rem',
       }
     },
   },

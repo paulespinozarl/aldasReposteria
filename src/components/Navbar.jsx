@@ -17,7 +17,7 @@ export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-      <header className=" lg:h-36 h-28 w-full flex justify-around">
+      <header className=" lg:h-36 h-28 w-full flex justify-around fixed top-0 bg-white shadow-md z-10">
         <nav className={`hidden lg:flex order ${showMenu ? 'hidden' : 'flex'} ${isLargeScreen ? 'w-1/3' : ''} bg-gradient-to-r from-pink-200 to-white flex items-center justify-center`}>
             <a src="#" className="m-2 hover:underline hover:cursor-pointer">Inicio</a>
             <a src="#" className="m-2 hover:underline hover:cursor-pointer">Productos</a>

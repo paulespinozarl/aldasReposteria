@@ -15,7 +15,7 @@ import { SwapComp } from './SwapComp';
 
 export const Galery = () => {
   return (
-    <div className='max-w-4xl mx-auto'>
+    <div className='mx-auto mt-36'>
       <Swiper
           // install Swiper modules
           modules={[Navigation, Scrollbar, Autoplay]}
@@ -28,7 +28,7 @@ export const Galery = () => {
           autoplay={{ delay: 3000 }}
           slidesPerView={1}
           scrollbar={{ draggable: true }}
-          className='h-64 lg:h-96'
+          className='h-64 lg:h-128'
         >
         <SwiperSlide className='flex justify-center'> <SwapComp image={ bb_1 } texto="Agregar descripción"/> </SwiperSlide>
         <SwiperSlide className='flex justify-center'> <SwapComp image={ bb_2 } texto="Agregar descripción"/> </SwiperSlide>
