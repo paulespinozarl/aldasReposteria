@@ -15,7 +15,7 @@ import { SwapComp } from './SwapComp';
 
 export const Galery = () => {
   return (
-    <div className='mx-auto mt-36'>
+    <div className='mx-auto mt-28 lg:mt-36'>
       <Swiper
           // install Swiper modules
           modules={[Navigation, Scrollbar, Autoplay]}
