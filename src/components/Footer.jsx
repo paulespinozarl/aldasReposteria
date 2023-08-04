@@ -25,7 +25,7 @@ export const Footer = () => {
                 <a href="#"><PiYoutubeLogoLight className=" transition-transform duration-200 hover:scale-125" size={35}/></a>
             </div>
             <div className="grid col-start-1 col-end-4 items-center justify-center mb-2">
-                <p className="text-xs text-gray-800">Desarrollado por paulespinozarl@gmail.com - © 2023</p>
+                <p className="text-ssm text-gray-800">Desarrollado por paulespinozarl@gmail.com - © 2023</p>
             </div>
         </footer>
     </> 
