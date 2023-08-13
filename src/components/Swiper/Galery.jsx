@@ -11,6 +11,7 @@ import 'swiper/css/scrollbar';
 
 import { galleta_1, torta_6 } from '../../../public'
 import { SwapComp } from './SwapComp';
+import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 
 
 export const Galery = () => {
@@ -37,8 +38,8 @@ export const Galery = () => {
         <SwiperSlide className='flex justify-center'> <SwapComp image={ torta_6 } texto="Agregar descripción"/> </SwiperSlide>
         <SwiperSlide className='flex justify-center'> <SwapComp image={ galleta_1 } texto="Agregar descripción"/> </SwiperSlide>
         <SwiperSlide className='flex justify-center'> <SwapComp image={ torta_6 } texto="Agregar descripción"/> </SwiperSlide>
-        <div className='swiper-button-next' style={{ color: '#fbcfe8'}}></div>
-        <div className='swiper-button-prev'style={{ color: '#fbcfe8'}}></div>
+        <GrFormNext className='swiper-button-next'/>
+        <GrFormPrevious size={30} className='swiper-button-prev'/>
       </Swiper>
   );
 };
