@@ -23,7 +23,7 @@ export const Navbar = () => {
             <Link to={'/home'} className="m-2 hover:underline hover:cursor-pointer">Inicio</Link>
             <Link to={'/recetas'} className="m-2 hover:underline hover:cursor-pointer">Productos</Link>
             <a src="#" className="m-2 hover:underline hover:cursor-pointer">Sobre Mi</a>
-            <Link to={'/contacto'}className="m-2 hover:underline hover:cursor-pointer">Contáctame</Link>
+            <Link to={'/contacto'} className="m-2 hover:underline hover:cursor-pointer">Contáctame</Link>
         </nav>
 
         <div className={`flex justify-center bg-gradient-to-r from-pink-200 to-white ${isLargeScreen ? '' : 'w-1/3'}`}>
@@ -36,9 +36,9 @@ export const Navbar = () => {
 
           {showMenu && (
               <div className="lg:hidden flex flex-col items-center lg:h-36 h-28 text-center">
-                <a href="#" className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
+                <Link to={'/home'} className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
                   Inicio
-                </a>
+                </Link>
                 <Link to={'/recetas'} className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
                   Productos
                 </Link>
@@ -46,9 +46,9 @@ export const Navbar = () => {
                 <a href="#" className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
                   Sobre Mi
                 </a>
-                <a href="#" className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
+                <Link to={'/contacto'} className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
                   Contáctame
-                </a>
+                </Link>
               </div>
             )}
         </div>
