@@ -6,7 +6,7 @@ import { Footer } from '../components/Footer';
 import { RecetasRoutes } from '../components/RecetasRoutes';
 import { Contacto } from '../pages/Contacto';
 
-export const AldasRoutess = () => {
+export const AldasRoutes = () => {
   return (
     <>
         <Navbar/>
