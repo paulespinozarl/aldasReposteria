@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.queryImage{
+.queryImage {
   width: 250px;
   height: 144px;
 }
 
-.contenedor{
+.contenedor {
   height: 400px;
 }
 

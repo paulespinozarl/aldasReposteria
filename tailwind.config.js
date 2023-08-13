@@ -18,7 +18,9 @@ export default {
         'pruebaBg': "url('/public/torta-14.jpg')"
       },
       spacing: {
+        '118': '27rem',
         '128': '32rem',
+        '130': '39.5rem',
         '132': '42rem'
       },
       fontSize: {
