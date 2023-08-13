@@ -1,4 +1,3 @@
-import { FiUser } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { AiOutlineWhatsApp } from 'react-icons/ai';
