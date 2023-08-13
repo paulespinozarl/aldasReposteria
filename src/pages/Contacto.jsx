@@ -3,7 +3,7 @@ import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 export const Contacto = () => {
   return (
-    <div className="bg-gray-100 py-8 h-118 lg:h-130 flex items-center">
+    <div className="bg-gray-100 py-8 h-128 lg:h-130 flex items-center">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-12">Contáctanos</h2>
         <p className="text-gray-600 mb-8">¡Estamos aquí para ayudarte! No dudes en contactarnos si tienes alguna pregunta o solicitud.</p>
