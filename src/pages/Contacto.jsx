@@ -15,7 +15,7 @@ export const Contacto = () => {
           </div>
           <a href="https://wa.me/+56962936002" target="_blank" rel="noopener noreferrer" className="flex items-center">
             <AiOutlineWhatsApp className="text-pink-400 text-2xl mr-2"/>
-            <span>Escríbenos!</span>
+            <span className='text-gray-800 hover:underline'>Escríbenos!</span>
           </a>
           <div className="flex items-center">
             <FiMail className="text-pink-400 text-2xl mr-2" />

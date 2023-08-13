@@ -12,10 +12,10 @@ export const AldasRoutes = () => {
         <Navbar/>
             <div className='mx-auto mt-28 lg:mt-36 z-10'>
                 <Routes>
-                    <Route path='home' element={ <HomePage/> }/>
+                    <Route path='/' element={ <HomePage/> }/>
                     <Route path='recetas' element={ <RecetasRoutes/> }/>
                     <Route path='contacto' element={ <Contacto/> }/>
-                    <Route path='/*' element={<Navigate to="/home"/>}/>  
+                    <Route path='/*' element={<Navigate to="/"/>}/>  
                 </Routes>
             </div>
         <Footer/>

@@ -14,7 +14,7 @@ export const Footer = () => {
     <>
         <footer className="h-32 lg:h-48 bg-gray-400 grid grid-cols-2 grid-rows-4 items-center justify-around">
             <div className="flex flex-col ml-7 lg:ml-0 lg:flex-row justify-center row-start-1 row-end-6 text-gray-700">
-                <Link to={'/home'} className="lg:text-sm lg:mr-4 text-xs hover:underline leading-loose hover:cursor-pointer">
+                <Link to={'/'} className="lg:text-sm lg:mr-4 text-xs hover:underline leading-loose hover:cursor-pointer">
                   Inicio
                 </Link>
                 <Link to={'/recetas'} className="lg:text-sm lg:mr-4 text-xs hover:underline leading-loose hover:cursor-pointer">
