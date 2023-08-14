@@ -38,7 +38,8 @@ export const Galery = () => {
         <SwiperSlide className='flex justify-center'> <SwapComp image={ torta_6 } texto="Agregar descripción"/> </SwiperSlide>
         <SwiperSlide className='flex justify-center'> <SwapComp image={ galleta_1 } texto="Agregar descripción"/> </SwiperSlide>
         <SwiperSlide className='flex justify-center'> <SwapComp image={ torta_6 } texto="Agregar descripción"/> </SwiperSlide>
-        <GrFormNext className='swiper-button-next'/>
+        <div style={{ color: '#fbcfe8'}} className='swiper-button-next'>
+        </div>
         <GrFormPrevious size={30} className='swiper-button-prev'/>
       </Swiper>
   );
