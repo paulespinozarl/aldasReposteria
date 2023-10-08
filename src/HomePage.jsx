@@ -5,8 +5,10 @@ export const HomePage = () => {
 
   return (
     <>
+    <div className="min-h-screen">
       <Galery/>
-      <Tips/>
+      <Tips/>      
+    </div>
     </>
   )
 }

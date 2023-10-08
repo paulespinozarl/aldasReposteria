@@ -2,7 +2,7 @@
 export const Tips = () => {
   return (
     <div className='m-5'>
-        <div className="max-w-6xl mx-auto flex flex-wrap md:p-3 lg:p-0 relative">
+        <div className="max-w-6xl mx-auto flex flex-wrap mt-10 mb-10 h-64 md:p-3 lg:p-0 relative">
           <div className="absolute top-0 mt-5 lg:top-5 md:left-5 left-0 lg:left-5 h-32 ">
             <h1 className='text-3xl sm:text-6xl md:text-7xl  font-bold dark:text-slate-500/30 text-slate-700/20'>¡Te ayudo a mejorar!</h1>
           </div>
