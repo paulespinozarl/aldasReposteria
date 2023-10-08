@@ -1,6 +1,6 @@
 import { GrClose } from "react-icons/gr";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { AiOutlineWhatsApp } from 'react-icons/ai';
+import { BiLogoWhatsapp } from 'react-icons/bi';
 import { AiOutlineMenu } from "react-icons/ai";
 import { logoAlda } from "../../public"
 import { useState } from "react";
@@ -72,7 +72,7 @@ export const Navbar = () => {
         <div className="order-3 w-1/3 flex items-center justify-center bg-gradient-to-r from-white to-pink-200">
             <a href="mailto:info@aldasreposteria.com"><MdOutlineMailOutline className="mr-3 transition-transform duration-200 hover:scale-125" size={isShortScreen ? 30 : 23}/></a>
             <a href="https://wa.me/+56962936002" target="_blank" rel="noopener noreferrer" className="transition-transform duration-200 hover:scale-125">
-                    <AiOutlineWhatsApp size={isShortScreen ? 30 : 23}/>
+                    <BiLogoWhatsapp size={isShortScreen ? 30 : 23}/>
             </a>
         </div>
       </header>
