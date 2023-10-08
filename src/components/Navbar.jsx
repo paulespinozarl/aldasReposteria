@@ -19,10 +19,10 @@ export const Navbar = () => {
   return (
       <header className=" lg:h-36 h-28 w-full flex justify-around fixed top-0 bg-white shadow-md z-20">
         <nav className={`hidden lg:flex order ${showMenu ? 'hidden' : 'flex'} ${isLargeScreen ? 'w-1/3' : ''} bg-gradient-to-r from-pink-200 to-white flex items-center justify-center`}>
-            <Link to={'/'} className="m-2 hover:underline hover:cursor-pointer">Inicio</Link>
-            <Link to={'/recetas'} className="m-2 hover:underline hover:cursor-pointer">Productos</Link>
-            <a src="#" className="m-2 hover:underline hover:cursor-pointer">Sobre Mi</a>
-            <Link to={'/contacto'} className="m-2 hover:underline hover:cursor-pointer">Contáctame</Link>
+            <Link to={'/'} className="hover:font-bold hover:text-gray-700 m-2 hover:cursor-pointer">Inicio</Link>
+            <Link to={'/recetas'} className="hover:font-bold hover:text-gray-700 m-2 hover:cursor-pointer">Productos</Link>
+            <a src="#" className="hover:font-bold hover:text-gray-700 m-2 hover:cursor-pointer">Sobre Mi</a>
+            <Link to={'/contacto'} className="hover:font-bold hover:text-gray-700 m-2 hover:cursor-pointer">Contáctame</Link>
         </nav>
 
         <div className={`flex justify-center bg-gradient-to-r from-pink-200 to-white ${isLargeScreen ? '' : 'w-1/3'}`}>
@@ -34,20 +34,30 @@ export const Navbar = () => {
           </button>
 
           {showMenu && (
-              <div className="lg:hidden flex flex-col items-center lg:h-36 h-28 text-center">
-                <Link to={'/home'} className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
-                  Inicio
-                </Link>
-                <Link to={'/recetas'} className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
-                  Productos
-                </Link>
+              <div className="lg:hidden fixed top-0 left-0 h-80 w-1/2 bg-gradient-to-r from-pink-200 to-gray-300 z-30 rounded-md shadow-xl"
+             
+              >
+                <div className="lg:hidden flex flex-col text-center">
+                  <button
+                    onClick={() => setShowMenu(!showMenu)}
+                    className="mt-4 ml-4 self-start"
+                  >
+                    <GrClose size={20} />
+                  </button>
+                  <Link onClick={() => setShowMenu(!showMenu)} to={'/home'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                    Inicio
+                  </Link>
+                  <Link onClick={() => setShowMenu(!showMenu)} to={'/recetas'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                    Productos
+                  </Link>
 
-                <a href="#" className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
-                  Sobre Mi
-                </a>
-                <Link to={'/contacto'} className="m-2 lg:text-sm text-xs hover:underline leading-none hover:cursor-pointer">
-                  Contáctame
-                </Link>
+                  <a href="#" className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                    Sobre Mi
+                  </a>
+                  <Link onClick={() => setShowMenu(!showMenu)} to={'/contacto'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                    Contáctame
+                  </Link>
+                </div>
               </div>
             )}
         </div>

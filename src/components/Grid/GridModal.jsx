@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { GridItems } from "./GridItems";
 import { bb_1, bb_2, bb_3, cup_1, cup_2, cup_3, cup_4, cup_5 } from '../../../public'
 
