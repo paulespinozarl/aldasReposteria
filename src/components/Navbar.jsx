@@ -42,7 +42,7 @@ export const Navbar = () => {
                 <div className="lg:hidden flex flex-col text-center">
                   <button
                     onClick={() => setShowMenu(!showMenu)}
-                    className="mt-4 ml-4 self-start"
+                    className="mt-4 ml-4 self-start animate__animated animate__flipInY"
                   >
                     <GrClose size={20} />
                   </button>
