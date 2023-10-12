@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-hook/media-query": "^1.1.1",
     "@react-icons/all-files": "^4.1.0",
+    "animate.css": "^4.1.1",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.26",
     "react": "^18.2.0",

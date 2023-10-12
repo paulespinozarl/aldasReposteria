@@ -12,7 +12,7 @@ export const Footer = () => {
 
   return (
     <>
-        <footer className="h-32 lg:h-48 bg-gray-400 grid items-center justify-around">
+        <footer className="h-28 lg:h-36 bg-gray-400 grid items-center justify-around">
             <div className="flex lg:flex-row justify-center text-gray-700 mt-2">
                 <Link to={'/'} className="lg:text-sm mr-2 lg:mr-4 text-xs hover:underline leading-loose hover:cursor-pointer">
                   Inicio

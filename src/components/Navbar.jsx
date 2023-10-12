@@ -6,6 +6,7 @@ import { logoAlda } from "../../public"
 import { useState } from "react";
 import { useMediaQuery } from '@react-hook/media-query';
 import { Link } from "react-router-dom";
+import 'animate.css';
 
 
 export const Navbar = () => {
@@ -34,9 +35,10 @@ export const Navbar = () => {
           </button>
 
           {showMenu && (
-              <div className="lg:hidden fixed top-0 left-0 h-80 w-1/2 bg-gradient-to-r from-pink-200 to-gray-300 z-30 rounded-md shadow-xl"
-             
-              >
+              <div 
+              className="
+              lg:hidden fixed top-0 left-0 h-80 w-1/2 bg-gradient-to-r from-pink-200 to-gray-300 z-30 rounded-md shadow-xl
+              ">
                 <div className="lg:hidden flex flex-col text-center">
                   <button
                     onClick={() => setShowMenu(!showMenu)}
@@ -44,17 +46,17 @@ export const Navbar = () => {
                   >
                     <GrClose size={20} />
                   </button>
-                  <Link onClick={() => setShowMenu(!showMenu)} to={'/home'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                  <Link onClick={() => setShowMenu(!showMenu)} to={'/home'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer animate__animated animate__fadeInLeft">
                     Inicio
                   </Link>
-                  <Link onClick={() => setShowMenu(!showMenu)} to={'/recetas'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                  <Link onClick={() => setShowMenu(!showMenu)} to={'/recetas'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer animate__animated animate__fadeInLeft">
                     Productos
                   </Link>
 
-                  <a href="#" className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                  <a href="#" className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer animate__animated animate__fadeInLeft">
                     Sobre Mi
                   </a>
-                  <Link onClick={() => setShowMenu(!showMenu)} to={'/contacto'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer">
+                  <Link onClick={() => setShowMenu(!showMenu)} to={'/contacto'} className="m-6 lg:text-md text-sm hover:underline leading-none hover:cursor-pointer animate__animated animate__fadeInLeft">
                     Contáctame
                   </Link>
                 </div>
